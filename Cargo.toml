@@ -1,0 +1,10 @@
+[package]
+name = "mips_emu"
+version = "0.1.0"
+authors = ["Marcin Mikołajczyk <marcinmikolajcz@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gdb-remote-protocol = { git = "https://github.com/luser/rust-gdb-remote-protocol" }
